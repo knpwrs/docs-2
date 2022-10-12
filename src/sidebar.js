@@ -309,7 +309,6 @@ module.exports = {
               type: "category",
               label: "Operations",
               items: [
-                "hydra/guides/tracing",
                 "hydra/guides/hsm-support",
                 "hydra/guides/cookies",
                 "hydra/guides/cors",
@@ -362,6 +361,7 @@ module.exports = {
             "hydra/self-hosted/configure-deploy",
             "hydra/self-hosted/dependencies-environment",
             "hydra/self-hosted/production",
+            "hydra/self-hosted/tracing",
             {
               type: "category",
               label: "Reference",
