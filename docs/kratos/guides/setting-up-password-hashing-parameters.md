@@ -11,11 +11,11 @@ stable and reliable operation of Ory Kratos. In essence, you want to fulfill the
 2. Memory: the amount of available memory on the server
 3. Space: the amount of space for persistent storage
 
-We recommend choosing a duration of 0.5s to 1s and as much memory as possible. To determine the exact recommended values following
-security best practices, run the CLI helper included in Ory Kratos:
+We recommend choosing a rate of 30 to 60 requests per second and as much memory as possible. To determine the exact recommended
+values following security best practices, run the CLI helper included in Ory Kratos:
 
 ```sh
-kratos hashers argon2 calibrate 1s
+kratos hashers argon2 calibrate 60
 ```
 
 It will output the exact values to use in the [configuration](../reference/configuration.mdx).
